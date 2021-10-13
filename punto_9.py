@@ -9,4 +9,4 @@ for i in range (pn):
     a=a+p1
 
 promedio=(a)/i+1
-print(f'el valor del promedio es {a} ')
+print(f'el valor del promedio es {promedio} ')
