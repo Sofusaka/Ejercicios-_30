@@ -10,3 +10,4 @@ for i in range (pn):
 
 promedio=(a)/i+1
 print(f'el valor del promedio es {promedio} ')
+
