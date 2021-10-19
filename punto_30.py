@@ -1,15 +1,21 @@
 #Escribe un algoritmo o el respectivo diagrama de flujo que lea tres números y determine si la suma del primero y el segundo es mayor o menor que el tercero.
 
-num=[]
+num1=[]
 print('--------------------------Calcular en número máximo y mínimo-------------------------------')
-cnum=int(input('Ingrese la cantidad de números que va a comparar: '))
 
-for i in range (3):
+for i in range (2):
     valor=int(input('ingrese el valor del número: '))
-    num.append(valor)
+    num1.append(valor)
 
-if sum(num[0,1])>num[2]:
+valor=int(input('ingrese el valor del número: '))
+
+if sum(num1)> valor:
 
         print('------------------------------------------------------------------------')
-        print(f'la suma de los dos primeros digitos es mayor que el tercer digito')
+        print(f'la suma de los dos primeros digitos {num1}= {sum(num1)} es mayor que el tercer digito: {valor}')
         print('------------------------------------------------------------------------')
+
+else:
+    print('------------------------------------------------------------------------')
+    print(f'la suma de los dos primeros digitos {num1}= {sum(num1)} es menor que el tercer digito: {valor}')
+    print('------------------------------------------------------------------------')
